@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="c_hotkey">
+      <UniqueIdentifier>{02979e8e-6447-4855-a6ee-85f000a2a14c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="c_input_mgr">
+      <UniqueIdentifier>{5d71c5e0-1078-4386-ae5b-1179d7efc977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="c_serial">
+      <UniqueIdentifier>{39e68e06-8068-41a7-b3f0-ecf568bb496e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entry">
+      <UniqueIdentifier>{b1e3c674-15e3-4f38-b870-02e8232b0ee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="c_config">
+      <UniqueIdentifier>{077c91ea-a1b7-4abf-a815-05119ce22110}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="c_hotkey.cpp">
+      <Filter>c_hotkey</Filter>
+    </ClCompile>
+    <ClCompile Include="c_input_mgr.cpp">
+      <Filter>c_input_mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="c_serial.cpp">
+      <Filter>c_serial</Filter>
+    </ClCompile>
+    <ClCompile Include="entry.cpp">
+      <Filter>entry</Filter>
+    </ClCompile>
+    <ClCompile Include="c_config.cpp">
+      <Filter>c_config</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="c_hotkey.h">
+      <Filter>c_hotkey</Filter>
+    </ClInclude>
+    <ClInclude Include="c_input_mgr.h">
+      <Filter>c_input_mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="c_serial.h">
+      <Filter>c_serial</Filter>
+    </ClInclude>
+    <ClInclude Include="c_config.h">
+      <Filter>c_config</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
